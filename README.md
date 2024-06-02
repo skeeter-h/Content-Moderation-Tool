@@ -5,9 +5,10 @@ You will need to run the application locally because the weights.pt file (the se
 
 1. Download project onto your device
 2. First, you need to train the BERT model. Simply run the train.py file.
-3. A weights.pt file will be saved into the same directory as the train.py file "project/main". Move that file into the parent directory.
-4. Then in terminal, go to the project directory and type "python server.py" to run flask server.
-5. You will be given a link to click and test out the tool.
+3. Training can take up to several hours. At the end, once testing is conducted, a classification report should be provided stating the precision and accuracy. 
+4. A weights.pt file will be saved into the same directory as the train.py file "project/main". Move that file into the parent directory.
+5. Then in terminal, go to the project directory and type "python server.py" to run flask server.
+6. You will be given a link to click and test out the tool.
 
 
 NOTE:
