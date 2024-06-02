@@ -1,7 +1,15 @@
 # Content-Moderation-Tool
 Content moderation tool on demo Twitter web application. Uses BERT to predict semantics behind a tweet (hateful or non-hateful). 
 
-If you download and run the project locally:
-When training the BERT model, the weights get automatically saved in the "main" directory. However, for the application to run on the server, they need to be moved to parent directory. 
+You will need to run the application locally because the weights.pt file (the set of of parameters that allows for new inputs to be correctly classified) is too large and cannot be pushed into this repository. 
 
+1. Download project onto your device
+2. First, you need to train the BERT model. Simply run the train.py file.
+3. A weights.pt file will be saved into the same directory as the train.py file "project/main". Move that file into the parent directory.
+4. Then in terminal, go to the project directory and type "python server.py" to run flask server.
+5. You will be given a link to click and test out the tool.
+
+
+NOTE:
+Make sure all the necessary libraries have been installed. 
 
