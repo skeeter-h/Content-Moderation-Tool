@@ -15,12 +15,12 @@ NOTE:
 Make sure all the necessary packages have been installed. You can find out how to install here: https://packaging.python.org/en/latest/tutorials/installing-packages/ 
 
 Here is the list of all packages needed: 
-flask
-numpy
-pandas
-torch
-transformers
-scikit-learn
-matplotlib
-imbalanced-learn
+- flask
+-  numpy
+- pandas
+- torch
+- transformers
+- scikit-learn
+- matplotlib
+- imbalanced-learn
 
